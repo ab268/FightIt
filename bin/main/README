@@ -1,0 +1,14 @@
+FightIt is a small project I have written to simulate two armies fighting. I have tried to add explanation 
+to all major methods and variables of the classes. I hope that helps. But, following is the overview of how it can be tested.
+The program expects following sequence of input -
+	1. Name of Army 1
+	2. Name of Army 2
+	3. Sequence of soldiers for Army 1
+	4. Sequence of soldiers for Army 2
+	
+The sequence of soldiers needs to be a comma separated list containing one or multiple characters of
+C (Cavalry), I(Infantry) and/or A(Artillery)
+The program generates the two armies with the given soldier sequence and simulates a battle between them. The armies take turns 
+to attack one another in the battle. After every attack, the program prints the current stats of both the armies. 
+Battle complete if either of the armies wins or if the battle is a tie. The program prints the name of the winning army
+and takes user input to either generate a new battle or quit.
